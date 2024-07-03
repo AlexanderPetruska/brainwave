@@ -23,7 +23,7 @@ const Benefits = () => {
         <div className="mb-10 flex flex-wrap items-center justify-center gap-10">
           {benefits.map((item, index) => (
             <div
-              className="relative block max-w-[24rem] cursor-pointer p-0.5"
+              className="relative mx-auto my-auto block max-w-[24rem] cursor-pointer p-0.5"
               key={item.id}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
@@ -35,7 +35,7 @@ const Benefits = () => {
                 alt="Image"
                 className="pointer-events-none absolute bottom-0 left-0 right-0 top-0 z-10 h-full w-full translate-x-[-1px]"
               />
-              <div className="pointer-events-none relative z-2 flex h-[25rem] min-h-[22rem] flex-col p-[2.4rem]">
+              <div className="pointer-events-none relative z-2 flex h-[25rem] flex-col p-[2.4rem]">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="mt-auto flex items-center">
@@ -57,17 +57,17 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div
-                className="absolute inset-0.5 max-w-[24rem] bg-n-8"
+                className="absolute inset-0.5 bg-n-8 max-[430px]:h-[350px] max-[430px]:translate-y-6"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0.5 h-full max-w-[24rem] opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0.5 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
                     <Image
                       src={item.imageUrl}
                       width={370}
                       height={362}
                       alt={item.title}
-                      className="h-full w-full object-cover"
+                      className="pointer-events-none absolute bottom-0 left-0 right-0 top-0 z-10 h-full w-full object-cover"
                     />
                   )}
                 </div>
