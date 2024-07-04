@@ -52,7 +52,7 @@ const Header = () => {
         openNavigation ? "top-[3px] bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10">
+      <div className="flex items-center px-1.5 max-lg:py-4 lg:px-4 xl:px-10">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <Image src="/brainwave.svg" width={190} height={40} alt="Brainwave" />
         </a>
@@ -61,7 +61,7 @@ const Header = () => {
           id="nav"
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed bottom-0 left-0 right-0 top-[5rem] bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent`}
+          } fixed bottom-0 left-0 right-0 top-[5rem] w-full bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent`}
         >
           <div className="relative z-2 m-auto flex flex-col items-center justify-center lg:flex-row">
             {navigation.map((item) => (
@@ -83,11 +83,11 @@ const Header = () => {
 
         <a
           href="#signup"
-          className="button mr-8 hidden text-n-1/50 transition-colors hover:text-n-1 lg:block"
+          className="button mr-6 hidden whitespace-nowrap text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden whitespace-nowrap lg:flex" href="#login">
           Sign in
         </Button>
 
