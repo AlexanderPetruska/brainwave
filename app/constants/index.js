@@ -140,12 +140,12 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Smart Automation",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Seamless Integration",
   },
   {
     id: "2",
