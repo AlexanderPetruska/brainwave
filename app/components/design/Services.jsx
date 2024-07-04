@@ -16,9 +16,9 @@ export const Gradient = () => {
   );
 };
 
-export const PhotChatMessage = () => {
+export const PhotoChatMessage = () => {
   return (
-    <div className="font-code absolute right-8 top-8 max-w-[17.5rem] rounded-t-xl rounded-bl-xl bg-black px-8 py-6 text-base lg:right-[8.75rem] lg:top-16 lg:max-w-[17.5rem]">
+    <div className="absolute right-8 top-8 max-w-[17.5rem] rounded-t-xl rounded-bl-xl bg-black px-8 py-6 font-code text-base lg:right-[8.75rem] lg:top-16 lg:max-w-[17.5rem]">
       Hey Brainwave, enhance this photo
       <ChatBubbleWing className="absolute bottom-0 left-full" />
     </div>
@@ -27,9 +27,9 @@ export const PhotChatMessage = () => {
 
 export const VideoChatMessage = () => {
   return (
-    <div className="bg-n-6 font-code absolute left-[3.125rem] top-8 w-full max-w-[14rem] rounded-t-xl rounded-br-xl pb-7 pl-5 pr-2.5 pt-2.5 text-base md:max-w-[17.5rem]">
+    <div className="absolute left-[3.125rem] top-8 w-full max-w-[14rem] rounded-t-xl rounded-br-xl bg-n-6 pb-7 pl-5 pr-2.5 pt-2.5 font-code text-base md:max-w-[17.5rem]">
       Video generated!
-      <div className="bg-color-1 absolute -bottom-[1.125rem] left-5 flex h-[2.25rem] w-[2.25rem] items-center justify-center rounded-[0.75rem]">
+      <div className="absolute -bottom-[1.125rem] left-5 flex h-[2.25rem] w-[2.25rem] items-center justify-center rounded-[0.75rem] bg-color-1">
         <Image
           src={brainwaveWhiteSymbol}
           width={26}
@@ -37,7 +37,7 @@ export const VideoChatMessage = () => {
           alt="Brainwave"
         />
       </div>
-      <p className="tagline text-n-3 absolute bottom-1 right-2.5 text-[0.625rem] uppercase">
+      <p className="tagline absolute bottom-1 right-2.5 text-[0.625rem] uppercase text-n-3">
         just now
       </p>
       <ChatBubbleWing
@@ -60,7 +60,7 @@ export const VideoBar = () => {
       />
 
       <div className="flex-1 bg-[#D9D9D9]">
-        <div className="bg-color-1 h-0.5 w-1/2"></div>
+        <div className="h-0.5 w-1/2 bg-color-1"></div>
       </div>
     </div>
   );
