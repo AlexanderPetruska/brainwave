@@ -10,7 +10,7 @@ const Pricing = () => {
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
-        <div className="relative mb-[6.5rem] hidden justify-center lg:flex">
+        <div className="absolute left-1/2 top-1/2 -z-5 mb-[6.5rem] hidden -translate-x-[50%] justify-center lg:flex">
           <Image
             src={smallSphere}
             className="relative z-1"
