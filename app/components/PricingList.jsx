@@ -16,7 +16,7 @@ const PricingList = () => {
             {item.description}
           </p>
           <div
-            className={`mb-6 flex h-[5.5rem] items-center lg:my-0 ${!item.price ? "sm:-my-12" : ""}`}
+            className={`mb-6 flex h-[5.5rem] items-center lg:my-0 ${!item.price ? "-my-28" : ""}`}
           >
             {item.price && (
               <>
