@@ -36,7 +36,7 @@ import {
   yourlogo,
 } from "../assets";
 
-import border1 from "../assets/benefits/card-1.svg";
+import border1 from "../assets/benefits/card-2.svg";
 import border2 from "../assets/benefits/card-2.svg";
 import border3 from "../assets/benefits/card-3.svg";
 import border4 from "../assets/benefits/card-4.svg";
@@ -311,30 +311,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "/",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "/",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "/",
   },
 ];

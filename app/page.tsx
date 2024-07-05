@@ -5,6 +5,7 @@ import Collaborations from "./components/Collaborations";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
+import Footer from "./components/Footer";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Services />
         <Pricing />
         <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
