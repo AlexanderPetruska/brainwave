@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Collaborations from "./components/Collaborations";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Collaborations />
         <Services />
         <Pricing />
+        <Roadmap />
       </div>
       <ButtonGradient />
     </>
