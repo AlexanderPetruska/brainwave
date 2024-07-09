@@ -34,10 +34,10 @@ export const HamburgerMenu = () => {
     <div className="pointer-events-none absolute inset-0 lg:hidden">
       <div className="absolute inset-0 opacity-[.03]">
         <Image
-          className="z-10 h-full w-full object-cover"
+          className="z-10 h-[1000px] w-[1000px] object-cover"
           src={bgimage}
-          width={688}
-          height={950}
+          width={1000}
+          height={1000}
           alt=" "
         />
       </div>
