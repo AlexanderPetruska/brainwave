@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export const Rings = () => {
   return (
-    <div className="border-n-2/10 absolute left-1/2 top-1/2 aspect-square w-[51.375rem] -translate-x-1/2 -translate-y-1/2 rounded-full border">
-      <div className="border-n-2/10 absolute left-1/2 top-1/2 aspect-square w-[36.125rem] -translate-x-1/2 -translate-y-1/2 rounded-full border"></div>
-      <div className="border-n-2/10 absolute left-1/2 top-1/2 aspect-square w-[23.125rem] -translate-x-1/2 -translate-y-1/2 rounded-full border"></div>
+    <div className="absolute left-1/2 top-1/2 aspect-square w-[51.375rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-n-2/10">
+      <div className="absolute left-1/2 top-1/2 aspect-square w-[36.125rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-n-2/10"></div>
+      <div className="absolute left-1/2 top-1/2 aspect-square w-[23.125rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-n-2/10"></div>
     </div>
   );
 };
@@ -12,8 +12,8 @@ export const Rings = () => {
 export const SideLines = () => {
   return (
     <>
-      <div className="w-0.25 bg-n-6 absolute left-5 top-0 h-full"></div>
-      <div className="w-0.25 bg-n-6 absolute right-5 top-0 h-full"></div>
+      <div className="absolute left-5 top-0 h-full w-0.25 bg-n-6"></div>
+      <div className="absolute right-5 top-0 h-full w-0.25 bg-n-6"></div>
     </>
   );
 };
@@ -37,7 +37,7 @@ export const HamburgerMenu = () => {
           src="/assets/background.jpg"
           width={688}
           height={953}
-          alt="Background"
+          alt=""
         />
       </div>
 

@@ -7,7 +7,6 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useEffect, useState } from "react";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 
 const Header = () => {
